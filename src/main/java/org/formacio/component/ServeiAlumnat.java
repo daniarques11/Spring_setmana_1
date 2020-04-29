@@ -32,4 +32,7 @@ public class ServeiAlumnat {
 		}
 	}
 
+	public int size() {
+		return matriculats.llistaAlumnes().size();
+	}
 }
