@@ -65,16 +65,6 @@ public class Setmana1Tests {
 	}
 	
 	
-    /**
-     * Construiu dins del package org.formacio.mvc un controlador que retorni el número d'alumnes que
-     * hi ha al repositori quan es faci la peticio /alumnes
-     * 
-     * El controlador ha de tenir una referencia a ServeiAlumnat (via dependencia)
-     * El controlador NO pot tenir cap referencia a RepositoriAlumnes
-     * 
-     * pista: si el controlador ha de coneixer el numero d'alumnes i nomes pot emprar ServeiAlumnat ...
-     *  ... pot ser ServeiAlumnat necessitara un altre metode.
-     */
     @Test
     public void test_web_nombre_alumnes() throws Exception {
     	int nombreAlumnes = repositori.llistaAlumnes().size();
