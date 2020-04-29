@@ -32,9 +32,6 @@ public class Setmana1Tests {
     @Autowired
     private MockMvc mockMvc;
 
-	/**
-	 * Modifiqueu la classe RepositoriAlumnesMemoria per a que sigui un compoment detectat per Spring 
-	 */
 	@Test
 	public void test_respositori_component() {
 		assertNotNull("RepositoriAlumnes es un component", repositori);
