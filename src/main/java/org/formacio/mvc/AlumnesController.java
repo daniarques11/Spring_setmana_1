@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class AlumnesController {
 
 	@Autowired
-	ServeiAlumnat matricules = new ServeiAlumnat();
+	ServeiAlumnat matricules;
 	
 	@RequestMapping(path="/alumnes")
 	@ResponseBody
